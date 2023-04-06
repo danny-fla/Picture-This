@@ -11,7 +11,7 @@
 
 <body>
     <div id="quiz-container">
-        <h1>Picture This</h1>
+        <h1>Picture This <i class="fa-solid fa-earth-americas"></i></h1>
         <img src="../assets/images/Picture this.jpg" alt="#">
         <h2>Can you guess where these famous landmarks are?</h2>
         <div id="options-container">
@@ -20,12 +20,16 @@
             <div id="option-3" class="option">Option 3</div>
             <div id="option-4" class="option">Option 4</div>
         </div>
-        <button ></button>
+        <div id="next-retry-buttons">
+            <button aria-label="Retry" class="retry-btn" onclick=""> Retry</button>
+            <button aria-label="Next" class="next-btn" onclick=""> Next</button>
+        </div>
         <div class="score-keeper">
             <p class="score">Score</p>
         </div>
     </div>
     <script src="../assets/script/scipt.js"></script>
+    <script src="https://kit.fontawesome.com/0f739cc4b2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
