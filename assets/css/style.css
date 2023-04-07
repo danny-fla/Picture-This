@@ -9,3 +9,18 @@
 body {
     font-family: lato, sans-serif;
 }
+ #quiz-container {
+    background-color: yellow;
+ }
+
+#options-container {
+    background-color: aliceblue;
+}
+
+#next-retry-buttons {
+    background-color: brown;
+}
+
+.score-keeper {
+    background-color: green;
+}
