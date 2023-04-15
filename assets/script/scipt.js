@@ -1,1 +1,18 @@
-console.log('hey');
+const questions = [{
+
+}]
+
+runQuiz() {
+
+}
+
+checkAnswer() {
+
+}
+determineCorrectAnswer() {
+
+}
+
+addScore() {
+
+}
