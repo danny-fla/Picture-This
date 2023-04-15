@@ -47,10 +47,17 @@ body {
 
 }
 
-#options-container {
-    background-color: aliceblue;
-    
-    
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.option-button {
+    padding: 10px 20px;
+    background-color: lime;
+    border: none;
+    cursor: pointer;
 }
 
 #next-retry-buttons {
