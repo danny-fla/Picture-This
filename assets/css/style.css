@@ -17,7 +17,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 80vh;
-    width: 100vh;
+    width: 80%;
+    max-width: 800px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -58,6 +59,7 @@ body {
     background-color: lime;
     border: none;
     cursor: pointer;
+    margin: 10px;
 }
 
 #next-retry-buttons {
